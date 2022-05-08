@@ -1,6 +1,19 @@
 ---
 ---
 
+@InProceedings{KunduCVPR2022PNF,
+abbr={PNF},
+title={{Panoptic Neural Fields: A Semantic Object-Aware Neural Scene Representation}},
+author={Abhijit Kundu and Kyle Genova and Xiaoqi Yin and Alireza Fathi and Caroline Pantofaru and Leonidas Guibas and Andrea Tagliasacchi and Frank Dellaert and Thomas Funkhouser},
+abstract={We present Panoptic Neural Fields (PNF), an object-aware neural scene representation that decomposes a scene into a set of objects (things) and background (stuff).  Each object is represented by an oriented 3D bounding box and a multi-layer perceptron (MLP) that takes position, direction, and time and outputs density and radiance.  The background stuff is represented by a similar MLP that additionally outputs semantic labels. Each object MLPs are instance-specific and thus can be smaller and faster than previous object-aware approaches, while still leveraging category-specific priors incorporated via meta-learned initialization. Our model builds a panoptic radiance field representation of any scene from just color images. We use off-the-shelf algorithms to predict camera poses, object tracks, and 2D image semantic segmentations. Then we jointly optimize the MLP weights and bounding box parameters using analysis-by-synthesis with self-supervision from color images and pseudo-supervision from predicted semantic segmentations. During experiments with real-world dynamic scenes, we find that our model can be used effectively for several tasks like novel view synthesis, 2D panoptic segmentation, 3D scene editing, and multiview depth prediction.},
+booktitle={CVPR},
+year={2022},
+teaser={pnf/kitti360_nvs50_train02.webp},
+website={pnf},
+bibtex_show={true},
+selected={true}
+}
+
 @inproceedings{KubricCVPR2022,
 abbr={Kubric},
 author = {Klaus Greff and Francois Belletti and Lucas Beyer and Carl Doersch and Yilun Du and Daniel Duckworth and David J Fleet and Dan Gnanapragasam and Florian Golemo and Charles Herrmann and Thomas Kipf and Abhijit Kundu and Dmitry Lagun and Issam Laradji and Hsueh-Ti (Derek) Liu and Henning Meyer and Yishu Miao and Derek Nowrouzezahrai and Cengiz Oztireli and Etienne Pot and Noha Radwan and Daniel Rebain and Sara Sabour and Mehdi S. M. Sajjadi and Matan Sela and Vincent Sitzmann and Austin Stone and Deqing Sun and Suhani Vora and Ziyu Wang and Tianhao Wu and Kwang Moo Yi and Fangcheng Zhong and Andrea Tagliasacchi},
@@ -11,7 +24,7 @@ year={2022},
 pdf={https://arxiv.org/pdf/2203.03570.pdf},
 arxiv={2203.03570},
 code={https://github.com/google-research/kubric},
-teaser={KLEVR.gif},
+teaser={kubric/KLEVR.gif},
 website={https://kubric.readthedocs.io/en/latest/},
 bibtex_show={true},
 selected={false}
@@ -26,7 +39,7 @@ booktitle={3DV},
 year={2021},
 pdf={https://arxiv.org/pdf/2110.11325.pdf},
 arxiv={2110.11325},
-teaser={2d3dnet_thumnail.png},
+teaser={misc/2d3dnet_thumnail.png},
 bibtex_show={true},
 selected={false}
 }
@@ -43,7 +56,7 @@ url={https://doi.org/10.1007/978-3-030-58586-0_31},
 isbn={978-3-030-58586-0},
 pdf={https://arxiv.org/pdf/2007.13138.pdf},
 arxiv={2007.13138},
-teaser={virtualMVFusion_thumbnail.gif},
+teaser={multiview_segmentation/virtualMVFusion_thumbnail.gif},
 website={multiview_segmentation},
 bibtex_show={true},
 selected={true}
@@ -59,7 +72,7 @@ year={2020},
 doi={10.1007/978-3-030-58542-6_2},
 url={https://doi.org/10.1007/978-3-030-58542-6_2},
 pdf={https://arxiv.org/pdf/2007.10323.pdf},
-teaser={pillar_detection_eccv2020_thumbnail.png},
+teaser={misc/pillar_detection_eccv2020_thumbnail.png},
 bibtex_show={true},
 selected={false}
 }
@@ -75,7 +88,7 @@ doi={10.1007/978-3-030-58523-5_16},
 url={https://doi.org/10.1007/978-3-030-58523-5_16},
 pdf={https://arxiv.org/pdf/2007.12392.pdf},
 video={https://www.youtube.com/watch?v=5M2cbMbBJ2U},
-teaser={lstm_detection_eccv2020_thumbnail.png},
+teaser={misc/lstm_detection_eccv2020_thumbnail.png},
 website={https://sites.google.com/view/lstm-3d-detection/home},
 bibtex_show={true},
 selected={false}
@@ -94,7 +107,7 @@ pdf={https://arxiv.org/pdf/2003.08400.pdf},
 video={https://www.youtube.com/watch?v=52xlRn0ESek},
 code={https://github.com/hjwdzh/AdversarialTexture},
 website={https://cs.stanford.edu/people/jingweih/papers/advtex/},
-teaser={ato_thumbnail.png},
+teaser={misc/ato_thumbnail.png},
 bibtex_show={true},
 selected={false}
 }
@@ -110,7 +123,7 @@ doi={10.1109/CVPR42600.2020.01193},
 url={https://doi.org/10.1109/CVPR42600.2020.01193},
 pdf={https://arxiv.org/pdf/2004.01170.pdf},
 video={https://www.youtube.com/watch?v=8UWqxqnXCyo},
-teaser={dops_thumbnail.png},
+teaser={misc/dops_thumbnail.png},
 bibtex_show={true},
 selected={false}
 }
@@ -125,7 +138,7 @@ year={2018},
 doi={10.1109/CVPR.2018.00375},
 url={https://doi.org/10.1109/CVPR.2018.00375},
 pdf={3DRCNN_CVPR18.pdf},
-teaser={3drcnn_thumbnail.jpg},
+teaser={3drcnn/3drcnn_thumbnail.jpg},
 website={3D-RCNN},
 bibtex_show={true},
 selected={true}
@@ -141,7 +154,7 @@ year={2017},
 doi={10.1109/DEVLRN.2017.8329835},
 url={https://doi.org/10.1109/DEVLRN.2017.8329835},
 pdf={ChongICDL2017.pdf},
-teaser={ChongICDL2017_thumbnail.png},
+teaser={misc/ChongICDL2017_thumbnail.png},
 bibtex_show={true},
 selected={false}
 }
@@ -159,7 +172,7 @@ pdf={VideoFSO_CVPR16.pdf},
 code={https://bitbucket.org/infinitei/videoparsing},
 slides={VideoFSO_CVPR16_slides.pdf},
 website={fso},
-teaser={fso_thumbnail.jpg},
+teaser={fso/fso_thumbnail.jpg},
 bibtex_show={true},
 selected={true}
 }
@@ -177,7 +190,7 @@ isbn={978-3-319-10599-4},
 pdf={HybridSFM-ECCV2014.pdf},
 supp={HybridSFM-ECCV2014-supp.pdf},
 website={JointSegRec},
-teaser={JointSegRec_thumbnail.jpg},
+teaser={JointSegRec/JointSegRec_thumbnail.jpg},
 bibtex_show={true},
 selected={true}
 }
@@ -192,7 +205,7 @@ year={2015},
 doi={10.1109/ICRA.2015.7139779},
 url={https://doi.org/10.1109/ICRA.2015.7139779},
 pdf={Hauer_ICRA2015.pdf},
-teaser={HauerICRA2015_thumbnail.gif},
+teaser={misc/HauerICRA2015_thumbnail.gif},
 bibtex_show={true},
 selected={false}
 }
@@ -207,7 +220,7 @@ year={2014},
 doi={10.1109/ICRA.2014.6907129},
 url={https://doi.org/10.1109/ICRA.2014.6907129},
 pdf={modern_map_icra2014.pdf},
-teaser={DhimanICRA2014_thumbnail.jpg},
+teaser={misc/DhimanICRA2014_thumbnail.jpg},
 bibtex_show={true},
 selected={false}
 }
@@ -222,7 +235,7 @@ year={2012},
 doi={10.1109/ICRA.2012.6224800},
 url={https://doi.org/10.1109/ICRA.2012.6224800},
 pdf={icra12.pdf},
-teaser={icra2012_thumbnail.jpg},
+teaser={misc/icra2012_thumbnail.jpg},
 bibtex_show={true},
 selected={false}
 }
@@ -239,7 +252,7 @@ url={https://doi.org/10.1109/ICCV.2011.6126482},
 pdf={abhijit_etal_iccv2011.pdf},
 supp={abhijit_etal_iccv2011_supp.pdf},
 website={mvslam},
-teaser={mvslam-thumbnail.jpg},
+teaser={mvslam/mvslam-thumbnail.jpg},
 bibtex_show={true},
 selected={false}
 }
@@ -254,7 +267,7 @@ year={2010},
 doi={10.1145/1924559.1924593},
 url={http://doi.acm.org/10.1145/1924559.1924593},
 pdf={abhijit_etal_icvgip2010.pdf},
-teaser={KunduICVGIP2010_thumbnail.jpg},
+teaser={misc/KunduICVGIP2010_thumbnail.jpg},
 bibtex_show={true},
 selected={false}
 }
@@ -269,7 +282,7 @@ year={2010},
 doi={10.1109/ROBIO.2010.5723575},
 url={http://doi.acm.org/10.1109/ROBIO.2010.5723575},
 pdf={abhijit_etal_robio2010.pdf},
-teaser={KunduROBIO2010_thumbnail.jpg},
+teaser={misc/KunduROBIO2010_thumbnail.jpg},
 bibtex_show={true},
 selected={false}
 }
@@ -284,7 +297,7 @@ year={2009},
 doi={10.1109/IROS.2009.5354227},
 url={http://doi.acm.org/10.1109/IROS.2009.5354227},
 pdf={abhijit_etal_iros2009.pdf},
-teaser={iros2009_thumbnail.jpg},
+teaser={misc/iros2009_thumbnail.jpg},
 bibtex_show={true},
 selected={false}
 }

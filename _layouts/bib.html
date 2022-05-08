@@ -15,7 +15,7 @@
         {% assign teaser_entry = entry.teaser -%}
         {%- if entry.teaser %}
           {% unless entry.teaser contains '://' -%}
-            {% assign teaser_entry = entry.teaser | prepend: '/assets/img/paper_teasers/' | relative_url -%}
+            {% assign teaser_entry = entry.teaser | prepend: '/assets/img/' | relative_url -%}
           {%- endunless %}
         {%- endif %}
 
