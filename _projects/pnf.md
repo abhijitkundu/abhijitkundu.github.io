@@ -2,7 +2,7 @@
 layout: page
 title: Panoptic Neural Fields
 description: A Semantic Object-Aware Neural Scene Representation
-img: assets/projects/pnf/kitti360_nvs50_train02.webp
+img: assets/img/pnf/kitti360_nvs50_train02.webp
 importance: 1
 category: research
 ---

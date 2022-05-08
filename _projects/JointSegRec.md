@@ -2,7 +2,7 @@
 layout: distill_project
 title: Semantic 3D Reconstruction
 description: Joint Semantic Segmentation and 3D Reconstruction from Monocular Video
-img: assets/projects/JointSegRec/JointSegRec_teaser.png
+img: assets/img/JointSegRec/JointSegRec_teaser.png
 importance: 4
 category: research
 date: 2014-09-06

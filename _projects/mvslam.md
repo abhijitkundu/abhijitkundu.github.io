@@ -2,7 +2,7 @@
 layout: distill_project
 title: Multibody Visual SLAM
 description: Realtime Multibody Visual SLAM with a Smoothly Moving Monocular Camera
-img: assets/projects/mvslam/multibodyVSLAM_thumbnail.jpg
+img: assets/img/mvslam/multibodyVSLAM_thumbnail.jpg
 importance: 6
 category: research
 date: 2011-11-06

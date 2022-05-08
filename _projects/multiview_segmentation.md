@@ -2,7 +2,7 @@
 layout: distill_project
 title: Virtual Multi-view Fusion
 description: Virtual Multi-view Fusion for 3D Semantic Segmentation
-img: assets/projects/multiview_segmentation/scene0708_00_combined.webp
+img: assets/img/multiview_segmentation/scene0708_00_combined.webp
 importance: 2
 category: research
 date: 2020-08-23
@@ -55,13 +55,13 @@ citation_key: KunduECCV2020VirtualMVFusion
   <div class="col-lg-6 text-center">
     <h4>Input mesh</h4>
       <video width="384" playsinline="" autoplay="" loop="" preload="" muted="">
-        <source src="../../assets/projects/multiview_segmentation/scene0708_00_input.mp4" type="video/mp4">
+        <source src="../../assets/videos/multiview_segmentation/scene0708_00_input.mp4" type="video/mp4">
       </video>
   </div>
   <div class="col-lg-6 text-center">
     <h4>Output labeled mesh</h4>
       <video width="384" playsinline="" autoplay="" loop="" preload="" muted="">
-        <source src="../../assets/projects/multiview_segmentation/scene0708_00_ours.mp4" type="video/mp4">
+        <source src="../../assets/videos/multiview_segmentation/scene0708_00_ours.mp4" type="video/mp4">
       </video>
   </div>
 </div>
@@ -82,29 +82,29 @@ Semantic segmentation of 3D meshes is an important problem for 3D scene understa
 
 <div class="row">
   <div class="col-lg-6">
-    <model-viewer src="../../assets/projects/multiview_segmentation/scene0761_00.glb" style="width: 100%; height: 320px;" alt="scene0761_00.glb"
+    <model-viewer src="../../assets/glb/multiview_segmentation/scene0761_00.glb" style="width: 100%; height: 320px;" alt="scene0761_00.glb"
       auto-rotate camera-controls>
     </model-viewer>
   </div>
   <div class="col-lg-6">
-    <model-viewer src="../../assets/projects/multiview_segmentation/scene0776_00.glb" style="width: 100%; height: 320px;" alt="scene0776_00.glb"
+    <model-viewer src="../../assets/glb/multiview_segmentation/scene0776_00.glb" style="width: 100%; height: 320px;" alt="scene0776_00.glb"
       auto-rotate camera-controls>
     </model-viewer>
   </div>
   <div class="col-lg-6">
-    <model-viewer src="../../assets/projects/multiview_segmentation/scene0709_00.glb" style="width: 100%; height: 320px;" alt="scene0709_00.glb"
+    <model-viewer src="../../assets/glb/multiview_segmentation/scene0709_00.glb" style="width: 100%; height: 320px;" alt="scene0709_00.glb"
       auto-rotate camera-controls>
     </model-viewer>
   </div>
   <div class="col-lg-6">
-    <model-viewer src="../../assets/projects/multiview_segmentation/scene0708_00.glb" style="width: 100%; height: 320px;" alt="scene0708_00.glb"
+    <model-viewer src="../../assets/glb/multiview_segmentation/scene0708_00.glb" style="width: 100%; height: 320px;" alt="scene0708_00.glb"
       auto-rotate camera-controls>
     </model-viewer>
   </div>
 </div>
 
 <div class="row">
-  <img width="100%" src="../../assets/projects/multiview_segmentation/nyu20_legend.jpg" alt="NYU 20 category legend">
+  <img width="100%" src="../../assets/img/multiview_segmentation/nyu20_legend.jpg" alt="NYU 20 category legend">
 </div>
 
 
@@ -113,36 +113,36 @@ Semantic segmentation of 3D meshes is an important problem for 3D scene understa
 <div class="row">
   <div class="col-lg-6">
     <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
-      <source src="../../assets/projects/multiview_segmentation/scene0221_00_ours.mp4" type="video/mp4">
+      <source src="../../assets/videos/multiview_segmentation/scene0221_00_ours.mp4" type="video/mp4">
     </video>
   </div>
   <div class="col-lg-6">
     <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
-      <source src="../../assets/projects/multiview_segmentation/scene0733_00_ours.mp4" type="video/mp4">
+      <source src="../../assets/videos/multiview_segmentation/scene0733_00_ours.mp4" type="video/mp4">
     </video>
   </div>
   <div class="col-lg-6">
     <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
-      <source src="../../assets/projects/multiview_segmentation/scene0435_01_ours.mp4" type="video/mp4">
+      <source src="../../assets/videos/multiview_segmentation/scene0435_01_ours.mp4" type="video/mp4">
     </video>
   </div>
   <div class="col-lg-6">
     <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
-      <source src="../../assets/projects/multiview_segmentation/scene0708_00_ours.mp4" type="video/mp4">
+      <source src="../../assets/videos/multiview_segmentation/scene0708_00_ours.mp4" type="video/mp4">
     </video>
   </div>
   <div class="col-lg-6">
     <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
-      <source src="../../assets/projects/multiview_segmentation/scene0645_00_ours.mp4" type="video/mp4">
+      <source src="../../assets/videos/multiview_segmentation/scene0645_00_ours.mp4" type="video/mp4">
     </video>
   </div>
   <div class="col-lg-6">
     <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
-      <source src="../../assets/projects/multiview_segmentation/scene0721_00_ours.mp4" type="video/mp4">
+      <source src="../../assets/videos/multiview_segmentation/scene0721_00_ours.mp4" type="video/mp4">
     </video>
   </div>
 </div>
 
 <div class="row">
-  <img width="100%" src="../../assets/projects/multiview_segmentation/nyu20_legend.jpg" alt="NYU 20 category legend">
+  <img width="100%" src="../../assets/img/multiview_segmentation/nyu20_legend.jpg" alt="NYU 20 category legend">
 </div>
