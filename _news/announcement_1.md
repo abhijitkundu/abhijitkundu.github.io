@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-04-01 12:00:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+:sparkles: Two papers [Panoptic Neural Fields](projects/pnf) and [Kubric](https://github.com/google-research/kubric) accepted at [CVPR 2022](https://cvpr2022.thecvf.com/).

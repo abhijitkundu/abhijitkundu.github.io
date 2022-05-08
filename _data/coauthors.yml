@@ -1,18 +1,46 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Kundu":
+  - firstname: ["Abhijit", "A."]
+    url: https://abhijitkundu.info
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Li":
+  - firstname: ["Yin", "Y."]
+    url: https://www.biostat.wisc.edu/~yli/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+  - firstname: ["Fuxin", "F."]
+    url: https://web.engr.oregonstate.edu/~lif/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Rehg":
+  - firstname: ["James", "James M.", "J. M.", "James Matthew"]
+    url: https://rehg.org
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Dellaert":
+  - firstname: ["Frank", "F."]
+    url: https://dellaert.github.io/
+
+"Pantofaru":
+  - firstname: ["Caroline", "C.", "Caroline Rebecca"]
+    url: https://www.linkedin.com/in/carolinepantofaru/
+
+"Funkhouser":
+  - firstname: ["Thomas", "T.", "Thomas A."]
+    url: https://www.cs.princeton.edu/~funk/
+
+"Guibas":
+  - firstname: ["Leonidas", "Leonidas J."]
+    url: https://geometry.stanford.edu/member/guibas/
+
+"Fathi":
+  - firstname: ["Alireza", "F."]
+    url: https://www.alirezafathi.org/
+
+"Koltun":
+  - firstname: ["Vladlen", "V."]
+    url: https://vladlen.info/
+
+"Jawahar":
+  - firstname: ["C. V."]
+    url: https://faculty.iiit.ac.in/~jawahar/
+
+"Krishna":
+  - firstname: ["K. M.", "K. Madhava"]
+    url: https://robotics.iiit.ac.in/PrincipalInvestigators.html

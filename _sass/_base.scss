@@ -88,6 +88,10 @@ blockquote {
 
 .citation, .citation-number {
   color: var(--global-theme-color);
+
+  ol.bibliography {
+    list-style: none;
+  }
 }
 
 // Profile
@@ -385,7 +389,7 @@ footer.sticky-bottom {
   }
 
   .grid-sizer, .grid-item {
-    width: 250px;
+    width: 283px;
     margin-bottom: 10px;
   }
 
