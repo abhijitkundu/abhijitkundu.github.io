@@ -43,7 +43,7 @@ We present a fast inverse-graphics framework for instance-level 3D scene underst
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/3Drcnn/pipeline.jpeg" title="pipeline image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/projects/3drcnn/pipeline.jpeg" title="pipeline image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -54,7 +54,7 @@ We present a fast inverse-graphics framework for instance-level 3D scene underst
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/3Drcnn/kitti_qualiatative.jpeg" title="kitti qualiatative" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/projects/3drcnn/kitti_qualiatative.jpeg" title="kitti qualiatative" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -63,7 +63,7 @@ We present a fast inverse-graphics framework for instance-level 3D scene underst
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/3Drcnn/surreal_qualitative.jpeg" title="surreal qualitative" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/projects/3drcnn/surreal_qualitative.jpeg" title="surreal qualitative" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
