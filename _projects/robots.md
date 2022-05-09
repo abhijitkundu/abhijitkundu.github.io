@@ -51,12 +51,13 @@ category: hobby
     </div>
 </div>
 
+
 ## Robots at the IIIT Hyderabad Robotics Lab
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
     	<p>
-        During my time at <a href="http://robotics.iiit.ac.in/">Robotics Research Lab</a> of <a href="http://iiit.ac.in/">IIIT Hyderabad</a>, I worked on several (professional) robot platforms. I predominantly made use of the <a href="http://www.mobilerobots.com/researchrobots/researchrobots/pioneerp3dx.aspx">Pioneer P3DX</a> and the new (at the time) <a href="http://www.mobilerobots.com/researchrobots/researchrobots/P3AT.aspx">P3AT</a> robot. With this platform, we implemented and developed various vision algorithms to develop a mobile robot that can interact and assist people in a home/office environment. I also worked heavily with stereo and monocular cameras and SICK laser scanners mounted on the poineer robots.
+        During my time at <a href="http://robotics.iiit.ac.in/">Robotics Research Lab</a> of <a href="http://iiit.ac.in/">IIIT Hyderabad</a>, I worked on several (professional) robot platforms. I predominantly made use of the <a href="http://www.mobilerobots.com/researchrobots/researchrobots/pioneerp3dx.aspx">Pioneer P3DX</a> and the new (at the time) <a href="http://www.mobilerobots.com/researchrobots/researchrobots/P3AT.aspx">P3AT</a> robot. With this platform, we implemented and developed various vision algorithms to develop a mobile robot that can interact and assist people in a home/office environment. I also worked heavily with stereo and monocular cameras and SICK laser scanners mounted on the poineer robots. We also used these robots for a mobile robotics course at <a href="http://iiit.ac.in/">IIIT Hyderabad</a> for which I was both a student and teaching assistant.
     	</p>
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
@@ -70,10 +71,7 @@ category: hobby
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
     	<p>
-        MERP is a mobile robot platform designed and developed as a testbed for robotics learning and research. The objective was to create a modular, easy to debug robot platform, both at the hardware and software level. With this platform, I implemented and developed various vision algorithms to create a mobile robot that can interact and assist people in a home/office environment.
-    	</p>
-    	<p>
-		Some of the abilities of the robot are:
+        MERP is a mobile robot platform that I designed and developed as a testbed for robotics learning and research. The objective was to create a cheap, modular, easy to debug robot platform, both at the hardware and software level. With this platform, I implemented and developed various vision algorithms to create a mobile robot that can interact and assist people in a home/office environment. Some of the abilities of the robot are:
 		<ol>
 		  <li>Speech based interaction and command execution.</li>
 		  <li>Face detection and face/person tracking.</li>
@@ -134,7 +132,7 @@ category: hobby
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
     	<p>
-        Apocalypse is a line following robot; it also has obstacle detection sensors. It won 1st prize at 3 robot competitions. Apocalypse clocked the fastest time of 15 seconds at a line following event in Edge at Techno India, Kolkata. The 2nd fastest time at the event was 26s. Apocalypse also won the <a href="http://www.youtube.com/watch?v=AXHqOU20SOg/">Sliding Door</a> event (a maze solving contest), crossing the whole grid in 22 seconds.
+        Apocalypse is a line following robot; it also has obstacle detection sensors. It won 1st prize at 3 robot competitions. Apocalypse clocked the fastest time of 15 seconds at a line following event in Edge at Techno India, Kolkata. The 2nd fastest time at the event was 26 seconds. Apocalypse also won the <a href="http://www.youtube.com/watch?v=AXHqOU20SOg/">Sliding Door</a> event (a maze solving contest), crossing the whole grid in 22 seconds.
         </p>
         <p>
 		Apocalypse uses an Atmel AVR <a href="http://www.atmel.com/dyn/resources/prod_documents/2486S.pdf">ATmega8</a> microcontroller as its "brain". <a href="http://www.st.com/stonline/books/pdf/docs/1330.pdf">L293D</a> is used as motor driver for two geared dc motors. LDRs are used as the sensors. The sensor board is replaceable and it can use other sensors (such as IR LED + IR phototransistor) with ease. Apocalypse is highly configurable; we configured it according to our needs and it served as a formidable base for many events.
