@@ -46,13 +46,74 @@ authors:
       name: Google Research
 
 citation_key: KunduCVPR2022PNF
+bibliography: pnf.bib
 ---
 
+<p>
+    <a href="https://arxiv.org/pdf/2205.04334.pdf" class="btn btn-primary z-depth-1">Paper <i class="fas fa-file-pdf"></i></a>
+    <a href="" class="btn btn-primary z-depth-1 disabled">Slides <i class="fas fa-file-powerpoint"></i></a>
+    <a href="" class="btn btn-primary z-depth-1 disabled">Poster <i class="fas fa-file-pdf"></i></a>
+    <a href="" class="btn btn-primary z-depth-1 disabled">Talk <i class="fab fa-youtube"></i></a>
+</p>
 
-**NOTE:**
-🚧🚧🚧 This project page is a work in progress
+## Video
+
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3aXHxuQ-xBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
 ## Abstract
 
 We present Panoptic Neural Fields (PNF), an object-aware neural scene representation that decomposes a scene into a set of objects (things) and background (stuff).  Each object is represented by an oriented 3D bounding box and a multi-layer perceptron (MLP) that takes position, direction, and time and outputs density and radiance.  The background stuff is represented by a similar MLP that additionally outputs semantic labels. Each object MLPs are instance-specific and thus can be smaller and faster than previous object-aware approaches, while still leveraging category-specific priors incorporated via meta-learned initialization. Our model builds a panoptic radiance field representation of any scene from just color images. We use off-the-shelf algorithms to predict camera poses, object tracks, and 2D image semantic segmentations. Then we jointly optimize the MLP weights and bounding box parameters using analysis-by-synthesis with self-supervision from color images and pseudo-supervision from predicted semantic segmentations. During experiments with real-world dynamic scenes, we find that our model can be used effectively for several tasks like novel view synthesis, 2D panoptic segmentation, 3D scene editing, and multiview depth prediction.
+
+## Applications
+
+<div class="row">
+  <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
+    <source src="../../assets/videos/pnf/pnf_applications.mp4" type="video/mp4">
+  </video>
+</div>
+
+## Video Results on KITTI
+
+We evaluate or method on KITTI<d-cite key="Geiger2012CVPR"></d-cite> and KITTI-360<d-cite key="kitti360"></d-cite> datasets. Results are shown below. For all results we use the same semantic <d-footnote>Semantic colormap: <img class="img-fluid" src="../../assets/img/pnf/semantic_colormap.jpg" alt="Semantic colormap"></d-footnote>.
+and depth <d-footnote>Depth colormap: <img class="img-fluid" src="../../assets/img/pnf/depth_colormap.jpg" alt="Depth colormap"></d-footnote> colormaps.
+
+
+### Results on (dynamic) KITTI scenes
+
+<div class="row">
+  <p>
+    <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
+      <source src="../../assets/videos/pnf/pnf_kitti_0009.mp4" type="video/mp4">
+    </video>
+  </p>
+  <p>
+    <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
+      <source src="../../assets/videos/pnf/pnf_kitti_0011.mp4" type="video/mp4">
+    </video>
+  </p>
+  <p>
+    <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
+      <source src="../../assets/videos/pnf/pnf_kitti_0018.mp4" type="video/mp4">
+    </video>
+  </p>
+</div>
+
+
+
+### Novel View Synthesis results on KITTI-360
+
+<div class="row">
+  <p>
+    <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
+      <source src="../../assets/videos/pnf/kitti360_nvs50_train02_hstacked.mp4" type="video/mp4">
+    </video>
+  </p>
+  <p>
+    <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
+      <source src="../../assets/videos/pnf/kitti360_nvs50_train03_hstacked.mp4" type="video/mp4">
+    </video>
+  </p>
+</div>
