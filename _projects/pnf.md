@@ -47,6 +47,19 @@ authors:
 
 citation_key: KunduCVPR2022PNF
 bibliography: pnf.bib
+
+
+toc:
+  - name: Video
+  - name: Abstract
+  - name: Applications
+  - name: Results
+
+_styles: >
+  .video_with_border{
+    border:1px solid gray;
+  }
+
 ---
 
 <p>
@@ -69,51 +82,85 @@ We present Panoptic Neural Fields (PNF), an object-aware neural scene representa
 
 ## Applications
 
+Panoptic Neural Fields can be used for several applications shown below.
+
 <div class="row">
   <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
     <source src="../../assets/videos/pnf/pnf_applications.mp4" type="video/mp4">
   </video>
 </div>
 
-## Video Results on KITTI
+## Results
 
-We evaluate or method on KITTI<d-cite key="Geiger2012CVPR"></d-cite> and KITTI-360<d-cite key="kitti360"></d-cite> datasets. Results are shown below. For all results we use the same semantic <d-footnote>Semantic colormap: <img class="img-fluid" src="../../assets/img/pnf/semantic_colormap.jpg" alt="Semantic colormap"></d-footnote>.
+We evaluate or method on KITTI<d-cite key="Geiger2012CVPR"></d-cite> and KITTI-360<d-cite key="Kitti360"></d-cite> datasets. Results are shown below. For all results we use the same semantic <d-footnote>Semantic colormap: <img class="img-fluid" src="../../assets/img/pnf/semantic_colormap.jpg" alt="Semantic colormap"></d-footnote>.
 and depth <d-footnote>Depth colormap: <img class="img-fluid" src="../../assets/img/pnf/depth_colormap.jpg" alt="Depth colormap"></d-footnote> colormaps.
 
 
 ### Results on (dynamic) KITTI scenes
 
-<div class="row">
-  <p>
-    <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
-      <source src="../../assets/videos/pnf/pnf_kitti_0009.mp4" type="video/mp4">
-    </video>
-  </p>
-  <p>
-    <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
-      <source src="../../assets/videos/pnf/pnf_kitti_0011.mp4" type="video/mp4">
-    </video>
-  </p>
-  <p>
-    <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
-      <source src="../../assets/videos/pnf/pnf_kitti_0018.mp4" type="video/mp4">
-    </video>
-  </p>
+<div class="row mt-3">
+  <video class="video_with_border" width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
+    <source src="../../assets/videos/pnf/pnf_kitti_0009.mp4" type="video/mp4">
+  </video>
+</div>
+<div class="row mt-3">
+  <video class="video_with_border" width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
+    <source src="../../assets/videos/pnf/pnf_kitti_0011.mp4" type="video/mp4">
+  </video>
+</div>
+<div class="row mt-3">
+  <video class="video_with_border" width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
+    <source src="../../assets/videos/pnf/pnf_kitti_0018.mp4" type="video/mp4">
+  </video>
 </div>
 
 
 
-### Novel View Synthesis results on KITTI-360
+### Novel view synthesis results on KITTI-360
 
-<div class="row">
-  <p>
-    <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
-      <source src="../../assets/videos/pnf/kitti360_nvs50_train02_hstacked.mp4" type="video/mp4">
-    </video>
-  </p>
-  <p>
-    <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
-      <source src="../../assets/videos/pnf/kitti360_nvs50_train03_hstacked.mp4" type="video/mp4">
-    </video>
-  </p>
+<div class="row d-flex justify-content-center text-center">
+  <div class="col-md-6">
+    Rendered <b>semantic</b> segmentation
+  </div>
+  <div class="col-md-6">
+    Rendered <b>depth</b> maps
+  </div>
+</div>
+<div class="row mt-0">
+  <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
+    <source src="../../assets/videos/pnf/kitti360_nvs50_train02_hstacked.mp4" type="video/mp4">
+  </video>
+</div>
+<div class="row mt-2">
+  <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
+    <source src="../../assets/videos/pnf/kitti360_nvs50_train03_hstacked.mp4" type="video/mp4">
+  </video>
+</div>
+
+### Scene editing
+
+Since our proposed panoptic neural field scene representation is object aware, it allows seamless manipulation and editing of different objects present in the scene by simply changing object pose or MLP parameters. We show some examples of scene editing below.
+
+<div class="row d-flex justify-content-center text-center">
+  <div class="col-md-6">
+    Rendered <b>without</b> scene editing
+  </div>
+  <div class="col-md-6">
+    Rendered <b>with</b> scene editing
+  </div>
+</div>
+<div class="row mt-0">
+  <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
+    <source src="../../assets/videos/pnf/scene_editing_kitti_2011_09_26_drive_0035.mp4" type="video/mp4">
+  </video>
+</div>
+<div class="row mt-2">
+  <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
+    <source src="../../assets/videos/pnf/dancing1_kitti_2011_09_26_drive_0018.mp4" type="video/mp4">
+  </video>
+</div>
+<div class="row mt-2">
+  <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
+    <source src="../../assets/videos/pnf/cloning03_kitti_2011_09_26_drive_0018.mp4" type="video/mp4">
+  </video>
 </div>
