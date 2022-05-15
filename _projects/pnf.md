@@ -119,10 +119,10 @@ and depth <d-footnote>Depth colormap: <img class="img-fluid" src="../../assets/i
 ### Novel view synthesis results on KITTI-360
 
 <div class="row d-flex justify-content-center text-center">
-  <div class="col-md-6">
+  <div class="col">
     Rendered <b>semantic</b> segmentation
   </div>
-  <div class="col-md-6">
+  <div class="col">
     Rendered <b>depth</b> maps
   </div>
 </div>
@@ -142,10 +142,10 @@ and depth <d-footnote>Depth colormap: <img class="img-fluid" src="../../assets/i
 Since our proposed panoptic neural field scene representation is object aware, it allows seamless manipulation and editing of different objects present in the scene by simply changing object pose or MLP parameters. We show some examples of scene editing below.
 
 <div class="row d-flex justify-content-center text-center">
-  <div class="col-md-6">
+  <div class="col">
     Rendered <b>without</b> scene editing
   </div>
-  <div class="col-md-6">
+  <div class="col">
     Rendered <b>with</b> scene editing
   </div>
 </div>
