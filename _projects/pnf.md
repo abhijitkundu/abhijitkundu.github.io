@@ -64,9 +64,8 @@ _styles: >
 
 <p>
     <a href="https://arxiv.org/pdf/2205.04334.pdf" class="btn btn-primary z-depth-1">Paper <i class="fas fa-file-pdf"></i></a>
-    <a href="" class="btn btn-primary z-depth-1 disabled">Slides <i class="fas fa-file-powerpoint"></i></a>
-    <a href="" class="btn btn-primary z-depth-1 disabled">Poster <i class="fas fa-file-pdf"></i></a>
-    <a href="" class="btn btn-primary z-depth-1 disabled">Talk <i class="fab fa-youtube"></i></a>
+    <a href="../../assets/pdf/PNF_CVPR22_Poster.pdf" class="btn btn-primary z-depth-1">Poster <i class="fas fa-file-pdf"></i></a>
+    <a href="https://youtu.be/3aXHxuQ-xBM" class="btn btn-primary z-depth-1">Talk <i class="fab fa-youtube"></i></a>
 </p>
 
 ## Video
