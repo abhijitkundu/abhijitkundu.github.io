@@ -3,6 +3,7 @@ layout: distill_project
 title: Panoptic Neural Fields
 description: A Semantic Object-Aware Neural Scene Representation
 img: assets/img/pnf/kitti360_nvs50_train02.webp
+og_image: assets/img/pnf/kitti360_nvs50_train02_category_composite.gif
 importance: 1
 category: research
 date: 2022-05-8
