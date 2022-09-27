@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>
     {%- if site.title == "blank" -%}
-        {%- capture title -%}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{%- endcapture -%}
+        {%- capture title -%}{{ site.first_name }} {{ site.last_name }}{%- endcapture -%}
     {%- else -%}
         {%- capture title -%}{{ site.title }}{%- endcapture -%}
     {%- endif -%}
@@ -24,7 +24,7 @@
         {{ title }}
     {%- endif -%}
     </title>
-    <meta name="author" content="{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}" />
+    <meta name="author" content="{{ site.first_name }} {{ site.last_name }}" />
     <meta name="description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />
 {%- if page.keywords or site.keywords %}
     <meta name="keywords" content="{%- if page.keywords -%}{{ page.keywords }}{%- else -%}{{ site.keywords }}{%- endif -%}" />
@@ -38,8 +38,8 @@
     <meta property="og:title" content="{%- if page.title -%}{{ title }} | {{ page.title }}{%- else -%}{{ title }}{%- endif -%}" />
     <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}" />
     <meta property="og:description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />
-    {% if page.og_image or site.og_image -%}
-    <meta property="og:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
+    {% if page.og_image or page.img or site.og_image -%}
+    <meta property="og:image" content="{%- if page.og_image -%}{{ page.og_image | relative_url | prepend: site.baseurl | prepend: site.url }}{%- elsif page.img -%}{{ page.img | relative_url | prepend: site.baseurl | prepend: site.url }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
     {%- endif %}
     <meta property="og:locale" content="{{ site.lang }}" />
 
@@ -47,8 +47,8 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="{%- if page.title -%}{{ page.title }}{%- else -%}{{ title }}{%- endif -%}" />
     <meta name="twitter:description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />
-    {% if page.og_image or site.og_image -%}
-    <meta name="twitter:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
+    {% if page.og_image or page.img or site.og_image -%}
+    <meta name="twitter:image" content="{%- if page.og_image -%}{{ page.og_image | relative_url | prepend: site.baseurl | prepend: site.url }}{%- elsif page.img -%}{{ page.img | relative_url | prepend: site.baseurl | prepend: site.url }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
     {%- endif %}
     {% if site.twitter_username -%}
     <meta name="twitter:site" content="@{{ site.twitter_username }}" />
