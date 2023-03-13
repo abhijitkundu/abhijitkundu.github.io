@@ -16,6 +16,20 @@ bibtex_show={true},
 selected={true}
 }
 
+@InProceedings{Mi2022im2nerf,
+abbr={im2nerf},
+title={{im2nerf: Image to Neural Radiance Field in the Wild}},
+author={Lu Mi and Abhijit Kundu and David Ross and Frank Dellaert and Noah Snavely and Alireza Fathi},
+abstract={We propose im2nerf, a learning framework that predicts a continuous neural object representation given a single input image in the wild, supervised by only segmentation output from off-the-shelf recognition methods. The standard approach to constructing neural radiance fields takes advantage of multi-view consistency and requires many calibrated views of a scene, a requirement that cannot be satisfied when learning on large-scale image data in the wild. We take a step towards addressing this shortcoming by introducing a model that encodes the input image into a disentangled object representation that contains a code for object shape, a code for object appearance, and an estimated camera pose from which the object image is captured. Our model conditions a NeRF on the predicted object representation and uses volume rendering to generate images from novel views. We train the model end-to-end on a large collection of input images. As the model is only provided with single-view images, the problem is highly under-constrained. Therefore, in addition to using a reconstruction loss on the synthesized input view, we use an auxiliary adversarial loss on the novel rendered views. Furthermore, we leverage object symmetry and cycle camera pose consistency. We conduct extensive quantitative and qualitative experiments on the ShapeNet dataset as well as qualitative experiments on Open Images dataset. We show that in all cases, im2nerf achieves the state-of-the-art performance for novel view synthesis from a single-view unposed image in the wild.},
+booktitle={CVPR},
+year={2022},
+pdf={https://arxiv.org/pdf/2209.04061.pdf},
+arxiv={2209.04061},
+teaser={im2nerf/im2nerf.png},
+bibtex_show={true},
+selected={false}
+}
+
 @inproceedings{KubricCVPR2022,
 abbr={Kubric},
 author = {Klaus Greff and Francois Belletti and Lucas Beyer and Carl Doersch and Yilun Du and Daniel Duckworth and David J Fleet and Dan Gnanapragasam and Florian Golemo and Charles Herrmann and Thomas Kipf and Abhijit Kundu and Dmitry Lagun and Issam Laradji and Hsueh-Ti (Derek) Liu and Henning Meyer and Yishu Miao and Derek Nowrouzezahrai and Cengiz Oztireli and Etienne Pot and Noha Radwan and Daniel Rebain and Sara Sabour and Mehdi S. M. Sajjadi and Matan Sela and Vincent Sitzmann and Austin Stone and Deqing Sun and Suhani Vora and Ziyu Wang and Tianhao Wu and Kwang Moo Yi and Fangcheng Zhong and Andrea Tagliasacchi},

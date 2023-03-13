@@ -44,3 +44,11 @@
 "Krishna":
   - firstname: ["K. M.", "K. Madhava"]
     url: https://robotics.iiit.ac.in/PrincipalInvestigators.html
+
+"Snavely":
+  - firstname: ["Noah", "N."]
+    url: https://www.cs.cornell.edu/~snavely/
+
+"Mi":
+  - firstname: ["Lu", "L."]
+    url: http://people.csail.mit.edu/lumi/
