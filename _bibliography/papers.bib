@@ -1,6 +1,21 @@
 ---
 ---
 
+@InProceedings{ZhangCVPR2023Nerflets,
+abbr={Nerflets},
+title={{Nerflets: Local Radiance Fields for Efficient Structure-Aware 3D Scene Representation from 2D Supervision}},
+author={Xiaoshuai Zhang and Abhijit Kundu and Thomas Funkhouser and Leonidas Guibas and Hao Su and Kyle Genova},
+abstract={We address efficient and structure-aware 3D scene representation from images. Nerflets are our key contribution -- a set of local neural radiance fields that together represent a scene. Each nerflet maintains its own spatial position, orientation, and extent, within which it contributes to panoptic, density, and radiance reconstructions. By leveraging only photometric and inferred panoptic image supervision, we can directly and jointly optimize the parameters of a set of nerflets so as to form a decomposed representation of the scene, where each object instance is represented by a group of nerflets. During experiments with indoor and outdoor environments, we find that nerflets: (1) fit and approximate the scene more efficiently than traditional global NeRFs, (2) allow the extraction of panoptic and photometric renderings from arbitrary views, and (3) enable tasks rare for NeRFs, such as 3D panoptic segmentation and interactive editing.},
+booktitle={CVPR},
+year={2023},
+pdf={https://arxiv.org/pdf/2303.03361.pdf},
+arxiv={2303.03361},
+teaser={nerflets/nerflets_teaser.jpg},
+website={https://jetd1.github.io/nerflets-web/},
+bibtex_show={true},
+selected={false}
+}
+
 @InProceedings{KunduCVPR2022PNF,
 abbr={PNF},
 title={{Panoptic Neural Fields: A Semantic Object-Aware Neural Scene Representation}},
@@ -16,20 +31,6 @@ bibtex_show={true},
 selected={true}
 }
 
-@InProceedings{Mi2022im2nerf,
-abbr={im2nerf},
-title={{im2nerf: Image to Neural Radiance Field in the Wild}},
-author={Lu Mi and Abhijit Kundu and David Ross and Frank Dellaert and Noah Snavely and Alireza Fathi},
-abstract={We propose im2nerf, a learning framework that predicts a continuous neural object representation given a single input image in the wild, supervised by only segmentation output from off-the-shelf recognition methods. The standard approach to constructing neural radiance fields takes advantage of multi-view consistency and requires many calibrated views of a scene, a requirement that cannot be satisfied when learning on large-scale image data in the wild. We take a step towards addressing this shortcoming by introducing a model that encodes the input image into a disentangled object representation that contains a code for object shape, a code for object appearance, and an estimated camera pose from which the object image is captured. Our model conditions a NeRF on the predicted object representation and uses volume rendering to generate images from novel views. We train the model end-to-end on a large collection of input images. As the model is only provided with single-view images, the problem is highly under-constrained. Therefore, in addition to using a reconstruction loss on the synthesized input view, we use an auxiliary adversarial loss on the novel rendered views. Furthermore, we leverage object symmetry and cycle camera pose consistency. We conduct extensive quantitative and qualitative experiments on the ShapeNet dataset as well as qualitative experiments on Open Images dataset. We show that in all cases, im2nerf achieves the state-of-the-art performance for novel view synthesis from a single-view unposed image in the wild.},
-booktitle={CVPR},
-year={2022},
-pdf={https://arxiv.org/pdf/2209.04061.pdf},
-arxiv={2209.04061},
-teaser={im2nerf/im2nerf.png},
-bibtex_show={true},
-selected={false}
-}
-
 @inproceedings{KubricCVPR2022,
 abbr={Kubric},
 author = {Klaus Greff and Francois Belletti and Lucas Beyer and Carl Doersch and Yilun Du and Daniel Duckworth and David J Fleet and Dan Gnanapragasam and Florian Golemo and Charles Herrmann and Thomas Kipf and Abhijit Kundu and Dmitry Lagun and Issam Laradji and Hsueh-Ti (Derek) Liu and Henning Meyer and Yishu Miao and Derek Nowrouzezahrai and Cengiz Oztireli and Etienne Pot and Noha Radwan and Daniel Rebain and Sara Sabour and Mehdi S. M. Sajjadi and Matan Sela and Vincent Sitzmann and Austin Stone and Deqing Sun and Suhani Vora and Ziyu Wang and Tianhao Wu and Kwang Moo Yi and Fangcheng Zhong and Andrea Tagliasacchi},
@@ -42,6 +43,19 @@ arxiv={2203.03570},
 code={https://github.com/google-research/kubric},
 teaser={kubric/KLEVR.gif},
 website={https://kubric.readthedocs.io/en/latest/},
+bibtex_show={true},
+selected={false}
+}
+
+@article{Mi2022im2nerf,
+abbr={im2nerf},
+title={{im2nerf: Image to Neural Radiance Field in the Wild}},
+author={Lu Mi and Abhijit Kundu and David Ross and Frank Dellaert and Noah Snavely and Alireza Fathi},
+abstract={We propose im2nerf, a learning framework that predicts a continuous neural object representation given a single input image in the wild, supervised by only segmentation output from off-the-shelf recognition methods. The standard approach to constructing neural radiance fields takes advantage of multi-view consistency and requires many calibrated views of a scene, a requirement that cannot be satisfied when learning on large-scale image data in the wild. We take a step towards addressing this shortcoming by introducing a model that encodes the input image into a disentangled object representation that contains a code for object shape, a code for object appearance, and an estimated camera pose from which the object image is captured. Our model conditions a NeRF on the predicted object representation and uses volume rendering to generate images from novel views. We train the model end-to-end on a large collection of input images. As the model is only provided with single-view images, the problem is highly under-constrained. Therefore, in addition to using a reconstruction loss on the synthesized input view, we use an auxiliary adversarial loss on the novel rendered views. Furthermore, we leverage object symmetry and cycle camera pose consistency. We conduct extensive quantitative and qualitative experiments on the ShapeNet dataset as well as qualitative experiments on Open Images dataset. We show that in all cases, im2nerf achieves the state-of-the-art performance for novel view synthesis from a single-view unposed image in the wild.},
+year={2022},
+pdf={https://arxiv.org/pdf/2209.04061.pdf},
+arxiv={2209.04061},
+teaser={im2nerf/im2nerf.png},
 bibtex_show={true},
 selected={false}
 }
@@ -162,7 +176,7 @@ selected={true}
 
 @inproceedings{ChongICDL2017,
 abbr={ChongICDL2017},
-author = {Eunji Chong and Audrey Southerland and Abhijit Kundu and Rebecca M Jones and Agata Rozga and James M Rehg},
+author = {Eunji Chong and Audrey Southerland and Abhijit Kundu and Rebecca M Jones and Agata Rozga and James M. Rehg},
 title={Visual 3D Tracking of Child-Adult Social Interactions},
 abstract={We describe an approach to continuously capture children's 3D head pose and location during a tabletop social interaction with an adult examiner. Our approach, called face plus context, utilizes a fixed room camera in conjunction with a head-worn camera on the examiner to simultaneously capture the child's face along with the toys and social partners that provide context. Our system performs head tracking and pose estimation along with multi-target tracking to provide 3D localization and disambiguate identity. We evaluated our method on a dataset of 16 children, including both typically developing and autistic children. We present encouraging results for measuring children's social behaviors, along with validation results using an IMU.},
 booktitle={CVPR},

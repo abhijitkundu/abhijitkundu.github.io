@@ -33,6 +33,10 @@
   - firstname: ["Alireza", "F."]
     url: https://www.alirezafathi.org/
 
+"Genova":
+  - firstname: ["Kyle", "K."]
+    url: https://www.kylegenova.com/
+
 "Koltun":
   - firstname: ["Vladlen", "V."]
     url: https://vladlen.info/
@@ -52,3 +56,7 @@
 "Mi":
   - firstname: ["Lu", "L."]
     url: http://people.csail.mit.edu/lumi/
+
+"Su":
+  - firstname: ["Hao", "H."]
+    url: https://cseweb.ucsd.edu/~haosu/
