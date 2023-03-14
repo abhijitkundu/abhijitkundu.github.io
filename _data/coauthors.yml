@@ -1,3 +1,39 @@
+"Dellaert":
+  - firstname: ["Frank", "F."]
+    url: https://dellaert.github.io/
+
+"Fathi":
+  - firstname: ["Alireza", "F."]
+    url: https://www.alirezafathi.org/
+
+"Funkhouser":
+  - firstname: ["Thomas", "T.", "Thomas A."]
+    url: https://www.cs.princeton.edu/~funk/
+
+"Genova":
+  - firstname: ["Kyle", "K."]
+    url: https://www.kylegenova.com/
+
+"Guibas":
+  - firstname: ["Leonidas", "Leonidas J."]
+    url: https://geometry.stanford.edu/member/guibas/
+
+"Huang":
+  - firstname: ["Jingwei", "J."]
+    url: https://cs.stanford.edu/people/jingweih/
+
+"Jawahar":
+  - firstname: ["C. V."]
+    url: https://faculty.iiit.ac.in/~jawahar/
+
+"Koltun":
+  - firstname: ["Vladlen", "V."]
+    url: https://vladlen.info/
+
+"Krishna":
+  - firstname: ["K. M.", "K. Madhava"]
+    url: https://robotics.iiit.ac.in/PrincipalInvestigators.html
+
 "Kundu":
   - firstname: ["Abhijit", "A."]
     url: https://abhijitkundu.info
@@ -9,54 +45,54 @@
   - firstname: ["Fuxin", "F."]
     url: https://web.engr.oregonstate.edu/~lif/
 
-"Rehg":
-  - firstname: ["James", "James M.", "J. M.", "James Matthew"]
-    url: https://rehg.org
+"Mi":
+  - firstname: ["Lu", "L."]
+    url: http://people.csail.mit.edu/lumi/
 
-"Dellaert":
-  - firstname: ["Frank", "F."]
-    url: https://dellaert.github.io/
+"Najibi":
+  - firstname: ["Mahyar", "M."]
+    url: https://www.mahyarnajibi.com/
+
+"Nießner":
+  - firstname: ["Matthias", "M."]
+    url: https://niessnerlab.org/
 
 "Pantofaru":
   - firstname: ["Caroline", "C.", "Caroline Rebecca"]
     url: https://www.linkedin.com/in/carolinepantofaru/
 
-"Funkhouser":
-  - firstname: ["Thomas", "T.", "Thomas A."]
-    url: https://www.cs.princeton.edu/~funk/
+"Rehg":
+  - firstname: ["James", "James M.", "J. M.", "James Matthew"]
+    url: https://rehg.org
 
-"Guibas":
-  - firstname: ["Leonidas", "Leonidas J."]
-    url: https://geometry.stanford.edu/member/guibas/
-
-"Fathi":
-  - firstname: ["Alireza", "F."]
-    url: https://www.alirezafathi.org/
-
-"Genova":
-  - firstname: ["Kyle", "K."]
-    url: https://www.kylegenova.com/
-
-"Koltun":
-  - firstname: ["Vladlen", "V."]
-    url: https://vladlen.info/
-
-"Jawahar":
-  - firstname: ["C. V."]
-    url: https://faculty.iiit.ac.in/~jawahar/
-
-"Krishna":
-  - firstname: ["K. M.", "K. Madhava"]
-    url: https://robotics.iiit.ac.in/PrincipalInvestigators.html
+"Ross":
+  - firstname: ["David", "David A.", "D. A."]
+    url: http://www.cs.toronto.edu/~dross/
 
 "Snavely":
   - firstname: ["Noah", "N."]
     url: https://www.cs.cornell.edu/~snavely/
 
-"Mi":
-  - firstname: ["Lu", "L."]
-    url: http://people.csail.mit.edu/lumi/
-
 "Su":
   - firstname: ["Hao", "H."]
     url: https://cseweb.ucsd.edu/~haosu/
+
+"Tagliasacchi":
+  - firstname: ["Andrea", "A."]
+    url: https://taiya.github.io/
+
+"Vineet":
+  - firstname: ["Vibhav", "V."]
+    url: https://vibhav-vineet.github.io/
+
+"Wang":
+  - firstname: ["Yue", "Y."]
+    url: https://yuewang.xyz/
+
+"Yin":
+  - firstname: ["Xiaoqi", "X."]
+    url: https://scholar.google.com/citations?user=2eADYP8AAAAJ&hl=en
+
+"Zhang":
+  - firstname: ["Xiaoshuai", "X."]
+    url: https://scholar.google.com/citations?user=cTGxuQQAAAAJ&hl=en
