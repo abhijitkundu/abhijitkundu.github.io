@@ -1,3 +1,7 @@
+"Barron":
+  - firstname: ["Jon", "Jonathan T."]
+    url: https://jonbarron.info/
+
 "Dellaert":
   - firstname: ["Frank", "F."]
     url: https://dellaert.github.io/
@@ -5,6 +9,10 @@
 "Fathi":
   - firstname: ["Alireza", "F."]
     url: https://www.alirezafathi.org/
+
+"Fouhey":
+  - firstname: ["David", "D."]
+    url: https://cs.nyu.edu/~fouhey/
 
 "Funkhouser":
   - firstname: ["Thomas", "T.", "Thomas A."]
@@ -26,6 +34,10 @@
   - firstname: ["C. V."]
     url: https://faculty.iiit.ac.in/~jawahar/
 
+"Johnson":
+  - firstname: ["Justin", "J."]
+    url: https://web.eecs.umich.edu/~justincj/
+
 "Koltun":
   - firstname: ["Vladlen", "V."]
     url: https://vladlen.info/
@@ -34,9 +46,13 @@
   - firstname: ["K. M.", "K. Madhava"]
     url: https://robotics.iiit.ac.in/PrincipalInvestigators.html
 
-"Kundu":
-  - firstname: ["Abhijit", "A."]
-    url: https://abhijitkundu.info
+"Kulkarni":
+  - firstname: ["Nilesh", "N."]
+    url: https://nileshkulkarni.github.io/
+
+"Rakotosaona":
+  - firstname: ["Marie-Julie"]
+    url: https://scholar.google.com/citations?hl=en&user=eQ0om98AAAAJ
 
 "Li":
   - firstname: ["Yin", "Y."]
@@ -44,6 +60,10 @@
 
   - firstname: ["Fuxin", "F."]
     url: https://web.engr.oregonstate.edu/~lif/
+
+"Manhardt":
+  - firstname: ["Fabian", "F."]
+    url: https://scholar.google.de/citations?user=bERItx8AAAAJ&h
 
 "Mi":
   - firstname: ["Lu", "L."]
@@ -53,6 +73,10 @@
   - firstname: ["Mahyar", "M."]
     url: https://www.mahyarnajibi.com/
 
+"Niemeyer":
+  - firstname: ["Michael", "M."]
+    url: https://m-niemeyer.github.io/
+
 "Nießner":
   - firstname: ["Matthias", "M."]
     url: https://niessnerlab.org/
@@ -61,9 +85,21 @@
   - firstname: ["Caroline", "C.", "Caroline Rebecca"]
     url: https://www.linkedin.com/in/carolinepantofaru/
 
+"Poole":
+  - firstname: ["Ben", "B."]
+    url: https://cs.stanford.edu/~poole/
+
+"Rakotosaona":
+  - firstname: ["Marie-Julie"]
+    url: https://scholar.google.com/citations?hl=en&user=eQ0om98AAAAJ
+
 "Rehg":
   - firstname: ["James", "James M.", "J. M.", "James Matthew"]
     url: https://rehg.org
+
+"Rempe":
+  - firstname: ["Davis", "D."]
+    url: https://davrempe.github.io/
 
 "Ross":
   - firstname: ["David", "David A.", "D. A."]
@@ -81,6 +117,10 @@
   - firstname: ["Andrea", "A."]
     url: https://taiya.github.io/
 
+"Tombari":
+  - firstname: ["Federico", "F."]
+    url: https://federicotombari.github.io/
+
 "Vineet":
   - firstname: ["Vibhav", "V."]
     url: https://vibhav-vineet.github.io/
@@ -96,3 +136,7 @@
 "Zhang":
   - firstname: ["Xiaoshuai", "X."]
     url: https://scholar.google.com/citations?user=cTGxuQQAAAAJ&hl=en
+
+"Yang":
+  - firstname: ["Guandao"]
+    url: https://www.guandaoyang.com/

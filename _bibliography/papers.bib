@@ -1,6 +1,37 @@
 ---
 ---
 
+
+@InProceedings{KulkarniCVPR2024Nifty,
+abbr={nifty},
+title={{NIFTY: Neural Object Interaction Fields for Guided Human Motion Synthesis}},
+author={Nilesh Kulkarni and Davis Rempe and Kyle Genova and Abhijit Kundu and Justin Johnson and David Fouhey and Leonidas Guibas},
+abstract={We address the problem of generating realistic 3D motions of humans interacting with objects in a scene. Our key idea is to create a neural interaction field attached to a specific object, which outputs the distance to the valid interaction manifold given a human pose as input. This interaction field guides the sampling of an object-conditioned human motion diffusion model, so as to encourage plausible contacts and affordance semantics. To support interactions with scarcely available data, we propose an automated synthetic data pipeline. For this, we seed a pre-trained motion model, which has priors for the basics of human movement, with interaction-specific anchor poses extracted from limited motion capture data. Using our guided diffusion model trained on generated synthetic data, we synthesize realistic motions for sitting and lifting with several objects, outperforming alternative approaches in terms of motion quality and successful action completion. We call our framework NIFTY: Neural Interaction Fields for Trajectory sYnthesis.},
+booktitle={CVPR},
+year={2024},
+pdf={https://arxiv.org/pdf/2307.07511.pdf},
+arxiv={2307.07511},
+teaser={nifty/nifty_teaser.jpg},
+website={https://nileshkulkarni.github.io/nifty/},
+bibtex_show={true},
+selected={false}
+}
+
+@InProceedings{NeRFMeshing3DV2024,
+abbr={NeRFMeshing},
+title={{NeRFMeshing: Distilling Neural Radiance Fields into Geometrically-Accurate 3D Meshes}},
+author={Marie-Julie Rakotosaona and Fabian Manhardt and Diego Martin Arroyo and Michael Niemeyer and Abhijit Kundu and Federico Tombari},
+abstract={With the introduction of Neural Radiance Fields (NeRFs), novel view synthesis has recently made a big leap forward. At the core, NeRF proposes that each 3D point can emit radiance, allowing to conduct view synthesis using differentiable volumetric rendering. While neural radiance fields can accurately represent 3D scenes for computing the image rendering, 3D meshes are still the main scene representation supported by most computer graphics and simulation pipelines, enabling tasks such as real time rendering and physics-based simulations. Obtaining 3D meshes from neural radiance fields still remains an open challenge since NeRFs are optimized for view synthesis, not enforcing an accurate underlying geometry on the radiance field. We thus propose a novel compact and flexible architecture that enables easy 3D surface reconstruction from any NeRF-driven approach. Upon having trained the radiance field, we distill the volumetric 3D representation into a Signed Surface Approximation Network, allowing easy extraction of the 3D mesh and appearance. Our final 3D mesh is physically accurate and can be rendered in real time on an array of devices.},
+booktitle={3DV},
+year={2024},
+pdf={https://arxiv.org/pdf/2303.09431.pdf},
+arxiv={2303.09431},
+teaser={nerf_meshing/animation_lego.gif},
+website={https://m-niemeyer.github.io/nerfmeshing/},
+bibtex_show={true},
+selected={false}
+}
+
 @InProceedings{ZhangCVPR2023Nerflets,
 abbr={Nerflets},
 title={{Nerflets: Local Radiance Fields for Efficient Structure-Aware 3D Scene Representation from 2D Supervision}},
@@ -12,6 +43,20 @@ pdf={https://arxiv.org/pdf/2303.03361.pdf},
 arxiv={2303.03361},
 teaser={nerflets/nerflets_teaser.jpg},
 website={https://jetd1.github.io/nerflets-web/},
+bibtex_show={true},
+selected={false}
+}
+
+@InProceedings{NFDiffusionICLR2023,
+abbr={nf_diffusion},
+title={{Learning a Diffusion Prior for NeRFs}},
+author={Guandao Yang and Abhijit Kundu and Leonidas Guibas and Jonathan T. Barron and Ben Poole},
+abstract={Neural Radiance Fields (NeRFs) have emerged as a powerful neural 3D representation for objects and scenes derived from 2D data. Generating NeRFs, however, remains difficult in many scenarios. For instance, training a NeRF with only a small number of views as supervision remains challenging since it is an under-constrained problem. In such settings, it calls for some inductive prior to filter out bad local minima. One way to introduce such inductive priors is to learn a generative model for NeRFs modeling a certain class of scenes. In this paper, we propose to use a diffusion model to generate NeRFs encoded on a regularized grid. We show that our model can sample realistic NeRFs, while at the same time allowing conditional generations, given a certain observation as guidance.},
+booktitle={ICLR Workshop},
+year={2023},
+pdf={https://arxiv.org/pdf/2304.14473.pdf},
+arxiv={2304.14473},
+teaser={nf_diffusion/nf_diffusion_teaser.gif},
 bibtex_show={true},
 selected={false}
 }
