@@ -41,7 +41,7 @@ We present a fast inverse-graphics framework for instance-level 3D scene underst
 
 ## Method
 
-<div class="row">
+<div class="row l-page">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/3drcnn/pipeline.jpeg" title="pipeline image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -52,7 +52,7 @@ We present a fast inverse-graphics framework for instance-level 3D scene underst
 
 ## Results
 
-<div class="row">
+<div class="row l-page">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/3drcnn/kitti_qualiatative.jpeg" title="kitti qualiatative" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -61,7 +61,7 @@ We present a fast inverse-graphics framework for instance-level 3D scene underst
     Reconstruction results on KITTI<d-cite key="Geiger2012CVPR"></d-cite> dataset.
 </div>
 
-<div class="row">
+<div class="row l-page">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/3drcnn/surreal_qualitative.jpeg" title="surreal qualitative" class="img-fluid rounded z-depth-1" %}
     </div>

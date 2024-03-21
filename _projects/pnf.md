@@ -71,7 +71,7 @@ _styles: >
 
 ## Video
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-16by9 l-body-outset">
     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3aXHxuQ-xBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
@@ -84,7 +84,7 @@ We present Panoptic Neural Fields (PNF), an object-aware neural scene representa
 
 Panoptic Neural Fields can be used for several applications shown below.
 
-<div class="row">
+<div class="row l-body-outset">
   <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
     <source src="../../assets/videos/pnf/pnf_applications.mp4" type="video/mp4">
   </video>
@@ -98,17 +98,17 @@ and depth <d-footnote>Depth colormap: <img class="img-fluid" src="../../assets/i
 
 ### Results on (dynamic) KITTI scenes
 
-<div class="row mt-3">
+<div class="row mt-3 l-body-outset">
   <video class="video_with_border" width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
     <source src="../../assets/videos/pnf/pnf_kitti_0009.mp4" type="video/mp4">
   </video>
 </div>
-<div class="row mt-3">
+<div class="row mt-3 l-body-outset">
   <video class="video_with_border" width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
     <source src="../../assets/videos/pnf/pnf_kitti_0011.mp4" type="video/mp4">
   </video>
 </div>
-<div class="row mt-3">
+<div class="row mt-3 l-body-outset">
   <video class="video_with_border" width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
     <source src="../../assets/videos/pnf/pnf_kitti_0018.mp4" type="video/mp4">
   </video>
@@ -126,12 +126,12 @@ and depth <d-footnote>Depth colormap: <img class="img-fluid" src="../../assets/i
     Rendered <b>depth</b> maps
   </div>
 </div>
-<div class="row mt-0">
+<div class="row mt-0 l-page">
   <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
     <source src="../../assets/videos/pnf/kitti360_nvs50_train02_hstacked.mp4" type="video/mp4">
   </video>
 </div>
-<div class="row mt-2">
+<div class="row mt-2 l-page">
   <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
     <source src="../../assets/videos/pnf/kitti360_nvs50_train03_hstacked.mp4" type="video/mp4">
   </video>
@@ -149,17 +149,17 @@ Since our proposed panoptic neural field scene representation is object aware, i
     Rendered <b>with</b> scene editing
   </div>
 </div>
-<div class="row mt-0">
+<div class="row mt-0 l-page">
   <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
     <source src="../../assets/videos/pnf/scene_editing_kitti_2011_09_26_drive_0035.mp4" type="video/mp4">
   </video>
 </div>
-<div class="row mt-2">
+<div class="row mt-2 l-page">
   <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
     <source src="../../assets/videos/pnf/dancing1_kitti_2011_09_26_drive_0018.mp4" type="video/mp4">
   </video>
 </div>
-<div class="row mt-2">
+<div class="row mt-2 l-page">
   <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
     <source src="../../assets/videos/pnf/cloning03_kitti_2011_09_26_drive_0018.mp4" type="video/mp4">
   </video>
