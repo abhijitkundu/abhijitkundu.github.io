@@ -3,7 +3,7 @@ layout: distill_project
 title: 3D-RCNN
 description: Instance-level 3D Object Reconstruction via Render-and-Compare
 img: assets/img/3drcnn/3drcnn_teaser.jpg
-importance: 2
+importance: 4
 category: research
 date: 2018-06-18
 

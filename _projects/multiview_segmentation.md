@@ -4,7 +4,7 @@ title: Virtual Multi-view Fusion
 description: Virtual Multi-view Fusion for 3D Semantic Segmentation
 img: assets/img/multiview_segmentation/scene0708_00_combined.webp
 og_image: assets/img/multiview_segmentation/virtualMVFusion_thumbnail.gif
-importance: 2
+importance: 5
 category: research
 date: 2020-08-23
 

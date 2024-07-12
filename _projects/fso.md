@@ -3,7 +3,7 @@ layout: distill_project
 title: Semantic Video Segmentation
 description: Feature Space Optimization for Semantic Video Segmentation
 img: assets/img/fso/fso_teaser_low.webp
-importance: 3
+importance: 4
 category: research
 date: 2016-06-26
 

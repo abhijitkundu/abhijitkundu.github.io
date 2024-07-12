@@ -2,6 +2,10 @@
   - firstname: ["Jon", "Jonathan T."]
     url: https://jonbarron.info/
 
+"Brown":
+  - firstname: ["Matthew", "Matthew Alun", "M."]
+    url: https://mattabrown.github.io/
+
 "Dellaert":
   - firstname: ["Frank", "F."]
     url: https://dellaert.github.io/
@@ -26,6 +30,10 @@
   - firstname: ["Leonidas", "Leonidas J."]
     url: https://geometry.stanford.edu/member/guibas/
 
+"Hays":
+  - firstname: ["James", "J."]
+    url: https://faculty.cc.gatech.edu/~hays/
+
 "Huang":
   - firstname: ["Jingwei", "J."]
     url: https://cs.stanford.edu/people/jingweih/
@@ -46,6 +54,10 @@
   - firstname: ["K. M.", "K. Madhava"]
     url: https://robotics.iiit.ac.in/PrincipalInvestigators.html
 
+"Krishnan":
+  - firstname: ["Akshay", "A."]
+    url: https://akshay-krishnan.github.io/
+
 "Kulkarni":
   - firstname: ["Nilesh", "N."]
     url: https://nileshkulkarni.github.io/
@@ -64,6 +76,10 @@
 "Manhardt":
   - firstname: ["Fabian", "F."]
     url: https://scholar.google.de/citations?user=bERItx8AAAAJ&h
+
+"Maninis":
+  - firstname: ["Kevis-Kokitsi", "Kevis"]
+    url: https://www.kmaninis.com/
 
 "Mi":
   - firstname: ["Lu", "L."]
