@@ -1,6 +1,21 @@
 ---
 ---
 
+@InProceedings{OrchidICCV2025,
+abbr={Orchid},
+title={{Orchid: Image Latent Diffusion for Joint Appearance and Geometry Generation}},
+author={Akshay Krishnan and Xinchen Yan and Vincent Casser and Abhijit Kundu},
+abstract={We introduce Orchid, a unified latent diffusion model that learns a joint appearance-geometry prior to generate color, depth, and surface normal images in a single diffusion process. This unified approach is more efficient and coherent than current pipelines that use separate models for appearance and geometry. Orchid is versatile - it directly generates color, depth, and normal images from text, supports joint monocular depth and normal estimation with color-conditioned finetuning, and seamlessly inpaints large 3D regions by sampling from the joint distribution. It leverages a novel Variational Autoencoder (VAE) that jointly encodes RGB, relative depth, and surface normals into a shared latent space, combined with a latent diffusion model that denoises these latents. Our extensive experiments demonstrate that Orchid delivers competitive performance against SOTA task-specific methods for geometry prediction, even surpassing them in normal-prediction accuracy and depth-normal consistency. It also inpaints color-depth-normal images jointly, with more qualitative realism than existing multi-step methods.},
+booktitle={ICCV},
+year={2025},
+pdf={https://arxiv.org/pdf/2501.13087.pdf},
+arxiv={2501.13087},
+teaser={orchid/einstein-orchid-out.webp},
+website={https://orchid3d.github.io/},
+bibtex_show={true},
+selected={false}
+}
+
 @InProceedings{OmniNOCSECCV2024,
 abbr={OmniNOCS},
 title={{OmniNOCS: A unified NOCS dataset and model for 3D lifting of 2D objects}},
