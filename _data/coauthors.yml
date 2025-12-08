@@ -1,3 +1,7 @@
+"Anguelov":
+  - firstname: ["Dragomir", "D."]
+    url: https://scholar.google.com/citations?user=T04c3fwAAAAJ&hl=en
+
 "Barron":
   - firstname: ["Jon", "Jonathan T."]
     url: https://jonbarron.info/
@@ -5,6 +9,14 @@
 "Brown":
   - firstname: ["Matthew", "Matthew Alun", "M."]
     url: https://mattabrown.github.io/
+
+"Casser":
+  - firstname: ["Vincent", "V."]
+    url: https://casser.io/
+
+"Dai":
+  - firstname: ["Angela", "A."]
+    url: https://scholar.google.com/citations?user=g-tGztMAAAAJ&hl=en
 
 "Dellaert":
   - firstname: ["Frank", "F."]
@@ -45,6 +57,10 @@
 "Johnson":
   - firstname: ["Justin", "J."]
     url: https://web.eecs.umich.edu/~justincj/
+
+"Jiang":
+  - firstname: ["Chiyu", "Chiyu Max"]
+    url: http://maxjiang.ml/
 
 "Koltun":
   - firstname: ["Vladlen", "V."]
@@ -137,6 +153,10 @@
   - firstname: ["Federico", "F."]
     url: https://federicotombari.github.io/
 
+"Tan":
+  - firstname: ["Mingxing", "M."]
+    url: https://scholar.google.com/citations?user=6POeyBoAAAAJ&hl=en
+
 "Vineet":
   - firstname: ["Vibhav", "V."]
     url: https://vibhav-vineet.github.io/
@@ -144,6 +164,18 @@
 "Wang":
   - firstname: ["Yue", "Y."]
     url: https://yuewang.xyz/
+
+"Yan":
+  - firstname: ["Xinchen", "X."]
+    url: https://sites.google.com/corp/site/skywalkeryxc/
+
+"Yang":
+  - firstname: ["Zhenpei", "Z."]
+    url: https://scholar.google.com/citations?hl=en&user=7AiInscAAAAJ
+
+"Yang":
+  - firstname: ["Guandao"]
+    url: https://www.guandaoyang.com/
 
 "Yin":
   - firstname: ["Xiaoqi", "X."]
@@ -153,6 +185,6 @@
   - firstname: ["Xiaoshuai", "X."]
     url: https://scholar.google.com/citations?user=cTGxuQQAAAAJ&hl=en
 
-"Yang":
-  - firstname: ["Guandao"]
-    url: https://www.guandaoyang.com/
+"Wang":
+  - firstname: ["Jiahao"]
+    url: https://jiahaoplus.github.io/
