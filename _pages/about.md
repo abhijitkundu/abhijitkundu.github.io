@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: profile_pic_kruger.jpg
+  image: profile_pic_seville_c.jpg
   # address: >
   #   <p>555 your office number</p>
   #   <p>123 your address street</p>
